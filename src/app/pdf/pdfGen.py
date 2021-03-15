@@ -4,7 +4,7 @@ import shutil
 import tempfile
 
 import qrcode
-from pdf2image import convert_from_path
+# from pdf2image import convert_from_path
 from reportlab.pdfgen import canvas
 from PIL import Image
 def parseTextFile(limit):
